@@ -6,7 +6,6 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/godfather1103/utils"
 	"github.com/godfather1103/xlsxImportTools/models"
-	_ "github.com/godfather1103/xlsxImportTools/routers"
 	"github.com/godfather1103/xlsxImportTools/util"
 	"log"
 	"path/filepath"
@@ -24,7 +23,6 @@ func main() {
 		log.Println(t)
 		AutoImportData()
 	}
-	//beego.Run()
 }
 
 func AutoImportData() {
