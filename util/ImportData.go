@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	"github.com/godfather1103/xlsImportTools/models"
+	"github.com/godfather1103/xlsxImportTools/models"
 	"github.com/tealeg/xlsx"
 	"log"
 	"strings"
